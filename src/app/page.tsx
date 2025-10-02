@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutSplitBottom from '@/components/navigation/NavbarLayoutSplitBottom/NavbarLayoutSplitBottom';
 import VoidHero from '@/components/sections/layouts/hero/VoidHero';
@@ -20,7 +20,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutSplitBottom 
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32Sjpo9ZLWlVS5JxRw9EagJf0Fo/design-a-simple-high-contrast-logo-for-x-1759396325412-c34a8567.jpg"
-          logoAlt="Xeven Logo"
           navItems={[
             { name: "Hero", id: "hero" },
             { name: "About", id: "about" },
