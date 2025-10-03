@@ -33,7 +33,7 @@ export default function Home() {
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <BillboardHero
-          title="Welcome"
+          title="Welcome to RealDevs"
           subtitle="Achieve more with AI-driven workflows that empower your team."
         />
       </div>
