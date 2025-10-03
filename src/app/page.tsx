@@ -1,7 +1,7 @@
 "use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutSplitBottom from '@/components/navigation/NavbarLayoutSplitBottom/NavbarLayoutSplitBottom';
-import VoidHero from '@/components/sections/layouts/hero/VoidHero';
+import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
 import SocialsAbout from '@/components/sections/layouts/about/SocialsAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import TextGridTokenomics from '@/components/sections/layouts/tokenomics/TextGridTokenomics';
@@ -32,12 +32,9 @@ export default function Home() {
         />
       </div>
       <div id="hero" data-section="hero">
-        <VoidHero
+        <BillboardHero
           title="Unlock Your Team's Potential"
-          description="Achieve more with AI-driven workflows that empower your team."
-          tagLabel="AI-Powered Productivity"
-          primaryButtonText="Get Started"
-          secondaryButtonText="Learn More"
+          subtitle="Achieve more with AI-driven workflows that empower your team."
         />
       </div>
       <div id="about" data-section="about">
