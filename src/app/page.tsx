@@ -31,13 +31,13 @@ export default function Home() {
           buttonText="Get started"
         />
       </div>
-      <div id="hero" data-section="hero">
+      <div id="hero" data-section="hero" className="scroll-mt-24">
         <BillboardHero
           title="Unlock Your Team's Potential"
           subtitle="Achieve more with AI-driven workflows that empower your team."
         />
       </div>
-      <div id="about" data-section="about">
+      <div id="about" data-section="about" className="scroll-mt-24">
         <SocialsAbout
           title="About Xeven"
           descriptions={[
@@ -47,7 +47,7 @@ export default function Home() {
           ]}
         />
       </div>
-      <div id="how-to-buy" data-section="how-to-buy">
+      <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
         <HowToBuy3D
           steps={[
             { position: "left", image: "https://example.com/image1.jpg", title: "Step 1", description: "Sign up for an account.", isCenter: false },
@@ -56,7 +56,7 @@ export default function Home() {
           ]}
         />
       </div>
-      <div id="tokenomics" data-section="tokenomics">
+      <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <TextGridTokenomics
           title="Tokenomics"
           description="Understanding the token supply and economics behind Xeven."
@@ -67,7 +67,7 @@ export default function Home() {
           ]}
         />
       </div>
-      <div id="faq" data-section="faq">
+      <div id="faq" data-section="faq" className="scroll-mt-24">
         <BentoFAQ
           items={[
             { title: "What is Xeven?", content: "Xeven is an AI-driven productivity platform." },
@@ -77,7 +77,7 @@ export default function Home() {
           ]}
         />
       </div>
-      <div id="footer" data-section="footer">
+      <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterLogo
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32Sjpo9ZLWlVS5JxRw9EagJf0Fo/design-a-simple-high-contrast-logo-for-x-1759396325412-c34a8567.jpg"
           logoAlt="Xeven Logo"
