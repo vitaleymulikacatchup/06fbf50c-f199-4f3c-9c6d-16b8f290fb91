@@ -33,7 +33,7 @@ export default function Home() {
       </div>
       <div id="hero" data-section="hero">
         <VoidHero
-          title="Unlock Your Team's Potential"
+          title="Hi Subhadeep"
           description="Achieve more with AI-driven workflows that empower your team."
           tagLabel="AI-Powered Productivity"
           primaryButtonText="Get Started"
